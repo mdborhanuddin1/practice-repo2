@@ -45,7 +45,7 @@ body{
     background-position: center;
     background-size: cover;
 }
-
+/* ---------first-section------- */
 .container{
     width: 1047px;
     margin: 100px auto;
@@ -60,7 +60,6 @@ body{
     display: flex;
     justify-items: center;
     justify-content: center;
-    flex-direction: row;
     gap: 50px;
     border: 1px solid #e1e2e3;
     padding: 25px 0;
@@ -116,4 +115,113 @@ body{
     margin: 6px 0 0 8px;
     font-size: 14px;
     font-weight: 700;
+}
+/* --------second-section--------------- */
+.future-products-container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.future-products{
+    display: flex;
+    gap: 96px;
+}
+.future-product img{
+    width: 404px;
+    height: 270px;
+}
+.future-products-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+.future-products-status{
+    font-weight: 700;
+}
+.future-products-button{
+    padding: 8px 10px;
+    background-color: #E02C6D;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+}
+
+
+/* ------------footer-area-------- */
+.footer-container{
+    margin-top: 100px;
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info{
+    text-align: center;
+    color: #fff;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 16px;
+}
+.social-icon{
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-info-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-info-status{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* -------------------------
+        media query
+-------------------------- */
+
+/* header */
+@media screen and (max-width: 576px) {
+    body{
+        width: 575px;
+    }
+    main{
+        max-width: 100%;
+    }
+    .header-item{
+        flex-direction: column-reverse;
+    }
+    .header-info{
+        text-align: center;
+        width: 386px;
+    } 
+    .main-camera{
+        width: 386px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 50px;
+        justify-content: flex-start;
+    }
+    .e-commerce-side{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        width: 386px;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .future-products{
+        flex-direction: column;
+    }
+    .future-products-text{
+        text-align: center;
+        width: 386px;
+    }
 }
