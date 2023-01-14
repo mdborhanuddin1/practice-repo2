@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f1f2;
+}
+.header-item-container{
+    width: 1155px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.header-item{
+    display: flex;
+    justify-content: center;
+    gap: 133px;
+    justify-items: center;
+}
+.header-info{
+    width: 582px;
+}
+.header-info-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.header-info-status{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.header-info-button{
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #E02C6D;
+    color: #fff;
+    font-weight: 700;
+}
+.icon{
+    color: #fff;
+}
+.main-camera{
+    width: 440px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 1047px;
+    margin: 100px auto;
+    
+}
+.popular-collection-title{
+    text-align: center;
+    color: #3A3A3A;
+}
+
+.e-commerce-side{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    border: 1px solid #e1e2e3;
+    padding: 25px 0;
+    margin-top: 75px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.product{
+    width: 329px;
+    height: 476px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-img{
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+}
+.product-name{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0 0 0;
+}
+.product-item{
+    margin-left: 18px;
+}
+.product-status{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+}
+.product-price{
+    margin: 0 0 0 0;
+}
+.star{
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+.star img{
+    width: 12px;
+    height: 12px;
+}
+.star-rate{
+    margin: 6px 0 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
